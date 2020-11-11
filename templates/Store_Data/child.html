@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% extends 'Store_Data/base.html' %}
+{% block title %}User-Create{% endblock %}
+
+{% block body %}
+<div class="container">
+
+    <div class="row justify-content-md-center">
+        <div class="col-sm-12 col-md-6" style="background-color:white;margin-top:3%">
+        <br>
+            <div class="">
+                <div class="">
+                <br>
+                    <h3 style="text-align: center;color: blue">User-Create</h3>
+                   <br>
+                    {% if error_message %}
+                        <p><strong>{{ error_message }}</strong></p>
+                    {% endif %}
+                    <form class="" role="form" action="" method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        {% include 'Store_Data/child_template.html' %}
+                        <br>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-success">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}
+
+</title>
+</head>
+<body>
+
+</body>
+</html>

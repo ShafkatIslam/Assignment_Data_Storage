@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% extends 'Store_Data/base.html' %}
+{% block title %}User-Create{% endblock %}
+
+{% block body %}
+<div class="container">
+
+    <div class="row justify-content-md-center">
+        <div class=" col-md-6 col-sm-12" style="background-color:white;margin-top:3%">
+            <div class="">
+                <br>
+                <div class="">
+                    <h3 class="text-primary font-weight-bold text-center">User-Create</h3>
+                   <br>
+                    <form class="">
+                        <div class="">
+                            <div class="">
+                                <a class="btn btn-success btn-lg btn-block" role="button" href="{% url 'store_data:parent' %}"> For Parent </a>
+                            </div>
+                            <br>
+                            <div class="">
+                                <a class="btn btn-warning btn-lg btn-block" role="button" href="{% url 'store_data:child' %}">For Child</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}
+
+</title>
+</head>
+<body>
+
+</body>
+</html>

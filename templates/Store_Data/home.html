@@ -1,0 +1,115 @@
+{% include 'Store_Data/base.html'%}
+{% load static %}
+{% block body %}
+<div class="container">
+<br>
+<div class="container-fluid">
+                <div class="row">
+
+                    {% for profile in profiles %}
+                    <div class="col-sm-4">
+
+
+                    <div class="custom_card">
+
+
+                        <img class="avatar border-gray" src="{% static 'Store_Data/images/profile.jpg' %}" alt="..." id="blah" src="#" style="width:100%">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-3" style="background-color:#fdf8ff;">
+                                  <p style="text-align: center">Name:</p>
+                                </div>
+                                <div class="col-sm-9" style="background-color:#fdf8ff;">
+                                 <h4 style="font-size: 15px;text-align: center; color: #ff0f2f;font-family: arial">{{ profile.first_name }} {{ profile.last_name }}</h4>
+                                </div>
+                              </div>
+                            </div>
+
+                        {% if profile.belong_to != '' %}
+                            <div class="container">
+                            <div class="row">
+                                <div class="col-sm-3" style="background-color:#fdf8ff;">
+                                  <p style="text-align: center">Parent (Belong to):</p>
+                                </div>
+                                <div class="col-sm-9" style="background-color:#fdf8ff;">
+                                 <p style="color: #00a5bd" class="custom_title">{{ profile.belong_to }}</p>
+                                </div>
+                              </div>
+                            </div>
+                        {% else %}
+                            <div class="container">
+                            <div class="row">
+                                <div class="col-sm-3" style="background-color:#fdf8ff;">
+                                  <p style="text-align: center">Street:</p>
+                                </div>
+                                <div class="col-sm-9" style="background-color:#fdf8ff;">
+                                 <p style="color: #00a5bd" class="custom_title">{{ profile.street }}</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="container">
+                            <div class="row">
+                                <div class="col-sm-3" style="background-color:#fdf8ff;">
+                                  <p style="text-align: center">City:</p>
+                                </div>
+                                <div class="col-sm-9" style="background-color:#fdf8ff;">
+                                 <p style="color: #00a5bd" class="custom_title">{{ profile.city }}</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="container">
+                            <div class="row">
+                                <div class="col-sm-3" style="background-color:#fdf8ff;">
+                                  <p style="text-align: center">State:</p>
+                                </div>
+                                <div class="col-sm-9" style="background-color:#fdf8ff;">
+                                 <p style="color: #00a5bd" class="custom_title">{{ profile.state }}</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="container">
+                            <div class="row">
+                                <div class="col-sm-3" style="background-color:#fdf8ff;">
+                                  <p style="text-align: center">Zip:</p>
+                                </div>
+                                <div class="col-sm-9" style="background-color:#fdf8ff;">
+                                 <p style="font-size: 17px;color: #0c5460">{{ profile.zip }}</p>
+                                </div>
+                              </div>
+                            </div>
+
+                        {% endif %}
+
+                         <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-6" style="background-color:#fdf8ff;">
+                                      {% if profile.belong_to != '' %}
+                                          <p><a href="{% url 'store_data:child_edit' profile.id %}"><button class="btn-success">Edit</button></a></p>
+                                      {% else %}
+                                          <p><a href="{% url 'store_data:parent_edit' profile.id %}"><button class="btn-success">Edit</button></a></p>
+                                      {% endif %}
+                                    </div>
+                                    <div class="col-sm-4" style="background-color:#fdf8ff;">
+                                     <p><a href="{% url 'store_data:delete_user' profile.id %}"><button class="btn-danger">Delete</button></a></p>
+                                    </div>
+                                  </div>
+                         </div>
+
+
+                    <br>
+
+                    </div>
+                    <br>
+                    </div>
+                    {% endfor %}
+                </div>
+</div>
+
+</div>
+
+
+{% endblock %}
+

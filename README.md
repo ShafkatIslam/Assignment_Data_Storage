@@ -1,4 +1,8 @@
-**Assignment - User data store**
+**Assignment - User data storage**
+
+Project is on the web server:
+
+https://tranquil-crag-39487.herokuapp.com/
 
 _all commands for this project:_
 

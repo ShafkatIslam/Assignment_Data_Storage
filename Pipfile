@@ -13,6 +13,7 @@ psycopg2 = "*"
 django-cors-headers = "==2.0.1"
 django-heroku = "*"
 gunicorn = "*"
+six = "*"
 
 [requires]
 python_version = "3.7"

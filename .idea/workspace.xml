@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e93ab0fa-36ea-485e-8e2c-be2d2a7d7a3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Store_Data/main_register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Store_Data/main_register.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +25,7 @@
         <counts>
           <entry key="Pipfile" value="2" />
           <entry key="Procfile" value="3" />
-          <entry key="html" value="40" />
+          <entry key="html" value="42" />
           <entry key="ico" value="3" />
           <entry key="lock" value="1" />
           <entry key="md" value="3" />
@@ -36,7 +35,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="40" />
+          <entry key="HTML" value="42" />
           <entry key="Image" value="3" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="8" />
@@ -63,16 +62,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="374">
+              <first_editor relative-caret-position="680">
                 <caret line="98" column="8" lean-forward="true" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Store_Data/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/Store_Data/main_register.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -114,7 +127,6 @@
         <option value="$PROJECT_DIR$/templates/Store_Data/parent.html" />
         <option value="$PROJECT_DIR$/stores_data/models.py" />
         <option value="$PROJECT_DIR$/stores_data/forms.py" />
-        <option value="$PROJECT_DIR$/templates/Store_Data/main_register.html" />
         <option value="$PROJECT_DIR$/templates/Store_Data/child.html" />
         <option value="$PROJECT_DIR$/templates/Store_Data/parent_template.html" />
         <option value="$PROJECT_DIR$/templates/Store_Data/child_template.html" />
@@ -135,6 +147,7 @@
         <option value="$PROJECT_DIR$/templates/Store_Data/base.html" />
         <option value="$PROJECT_DIR$/api/views.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/templates/Store_Data/main_register.html" />
       </list>
     </option>
   </component>
@@ -166,6 +179,17 @@
               <item name="Store_Data" type="b2602c69:ProjectViewProjectNode" />
               <item name="Store_Data" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store_Data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store_Data" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Store_Data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Store_Data" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Store_Data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -460,20 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Store_Data/main_register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="124" selection-start-line="24" selection-start-column="96" selection-end-line="24" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Store_Data/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -513,12 +523,22 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="374">
+          <first_editor relative-caret-position="680">
             <caret line="98" column="8" lean-forward="true" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Store_Data/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Store_Data/main_register.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

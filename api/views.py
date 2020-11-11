@@ -20,8 +20,8 @@ def apiOverview(request):
 		'Individual User View':'/users/<int:pk>/',
 		'Create Parent User':'user-create/parent/',
 		'Create Child User':'user-create/new/child/',
-		'Update':'/user-update/<str:pk>/',
-		'Delete':'/user-delete/<str:pk>/',
+		'Update':'/user-update/<int:pk>/',
+		'Delete':'/user-delete/<int:pk>/',
 		}
 
 	return Response(api_urls)

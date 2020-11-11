@@ -58,6 +58,45 @@ _all commands for this project:_
 
 ######In the api apps(folder) in url section we find the following API:
 
+**All API List:**
 
+https://tranquil-crag-39487.herokuapp.com/api/
 
+**For create parent user:** 
 
+https://tranquil-crag-39487.herokuapp.com/user-create/parent/
+
+**For create child user:** 
+
+https://tranquil-crag-39487.herokuapp.com/user-create/new/child/
+
+**For show all user (Retrieve all data) :** 
+
+https://tranquil-crag-39487.herokuapp.com/userlist/
+
+**For show individual user (Retrieve specific data) :**
+
+`https://tranquil-crag-39487.herokuapp.com/users/<int:pk>/`
+
+**Example:
+For retrieve id = 1** 
+
+https://tranquil-crag-39487.herokuapp.com/users/1/
+
+**For update user info:**
+
+`https://tranquil-crag-39487.herokuapp.com/user-update/<int:pk>/`
+
+Example:
+For update information for id =1
+
+https://tranquil-crag-39487.herokuapp.com/user-update/1/
+
+**For delete user info:**
+
+`https://tranquil-crag-39487.herokuapp.com/user-delete/<int:pk>/`
+
+Example:
+For update information for id =1
+
+https://tranquil-crag-39487.herokuapp.com/user-delete/1/

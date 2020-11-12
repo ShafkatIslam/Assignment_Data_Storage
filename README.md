@@ -72,7 +72,7 @@ https://tranquil-crag-39487.herokuapp.com/api/user-create/parent/
 
 **For create child user:** 
 
-https://tranquil-crag-39487.herokuapp.com/api/user-create/new/child/
+https://tranquil-crag-39487.herokuapp.com/api/user-create/child/
 
 **For show all user (Retrieve all data) :** 
 

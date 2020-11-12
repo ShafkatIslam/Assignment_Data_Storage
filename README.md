@@ -68,39 +68,39 @@ https://tranquil-crag-39487.herokuapp.com/api/
 
 **For create parent user:** 
 
-https://tranquil-crag-39487.herokuapp.com/user-create/parent/
+https://tranquil-crag-39487.herokuapp.com/api/user-create/parent/
 
 **For create child user:** 
 
-https://tranquil-crag-39487.herokuapp.com/user-create/new/child/
+https://tranquil-crag-39487.herokuapp.com/api/user-create/new/child/
 
 **For show all user (Retrieve all data) :** 
 
-https://tranquil-crag-39487.herokuapp.com/userlist/
+https://tranquil-crag-39487.herokuapp.com/api/userlist/
 
 **For show individual user (Retrieve specific data) :**
 
-`https://tranquil-crag-39487.herokuapp.com/users/<int:pk>/`
+`https://tranquil-crag-39487.herokuapp.com/api/users/<int:pk>/`
 
 **Example:
 For retrieve id = 1** 
 
-https://tranquil-crag-39487.herokuapp.com/users/1/
+https://tranquil-crag-39487.herokuapp.com/api/users/1/
 
 **For update user info:**
 
-`https://tranquil-crag-39487.herokuapp.com/user-update/<int:pk>/`
+`https://tranquil-crag-39487.herokuapp.com/api/user-update/<int:pk>/`
 
 Example:
 For update information for id =1
 
-https://tranquil-crag-39487.herokuapp.com/user-update/1/
+https://tranquil-crag-39487.herokuapp.com/api/user-update/1/
 
 **For delete user info:**
 
-`https://tranquil-crag-39487.herokuapp.com/user-delete/<int:pk>/`
+`https://tranquil-crag-39487.herokuapp.com/api/user-delete/<int:pk>/`
 
 Example:
 For update information for id =1
 
-https://tranquil-crag-39487.herokuapp.com/user-delete/1/
+https://tranquil-crag-39487.herokuapp.com/api/user-delete/1/
